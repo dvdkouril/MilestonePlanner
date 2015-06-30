@@ -8,6 +8,6 @@
 
 import Foundation
 
-class MilestoneLeaf {
+class Milestone : MilestoneComponent {
     
 }

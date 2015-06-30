@@ -8,6 +8,10 @@
 
 import Foundation
 
-class MilestoneComposite {
+class MilestoneComposite : MilestoneComponent {
+    var childMilestones: [MilestoneComponent]
     
+    init() {
+        childMilestones = [MilestoneComponent]()
+    }
 }
