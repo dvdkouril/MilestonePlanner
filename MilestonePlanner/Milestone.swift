@@ -9,5 +9,13 @@
 import Foundation
 
 class Milestone : MilestoneComponent {
+    // TODO all the properties that one milestone is going to have
+    var mName : String
+    var mDescription : String
+    var mFinishDate : NSDate?
     
+    init() {
+        mName = ""
+        mDescription = ""
+    }
 }
